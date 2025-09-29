@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow - Organize Your Tasks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+
+  <header class="fixed w-full bg-white shadow-sm z-50">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-extrabold text-blue-600">TaskFlow</a>
+      <div class="hidden md:flex space-x-6 font-medium">
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#reviews" class="hover:text-blue-600">Reviews</a>
+        <a href="#pricing" class="hover:text-blue-600">Pricing</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+      <a href="#pricing" class="hidden md:block px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">Get Started</a>
+      <button id="menu-btn" class="md:hidden text-2xl text-gray-700"><i class="fas fa-bars"></i></button>
+    </nav>
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg px-6 py-4 space-y-4 text-center">
+      <a href="#features" class="block hover:text-blue-600">Features</a>
+      <a href="#reviews" class="block hover:text-blue-600">Reviews</a>
+      <a href="#pricing" class="block hover:text-blue-600">Pricing</a>
+      <a href="#contact" class="block hover:text-blue-600">Contact</a>
+      <a href="#pricing" class="block px-5 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+
+  <section class="min-h-screen flex items-center px-6 pt-28 bg-white">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
+      <!-- Left Image -->
+      <div class="md:w-1/2 flex justify-center" data-aos="fade-right">
+        <img src="task.jpg" alt="TaskFlow App"
+          class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg object-contain">
+      </div>
+      <!-- Right Content -->
+      <div class="md:w-1/2 text-center md:text-left" data-aos="fade-left">
+        <span class="inline-block text-sm font-semibold uppercase tracking-wide text-indigo-700 bg-indigo-100 px-3 py-1 rounded-full">Future of productivity</span>
+        <h1 class="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900">
+          Smarter Task Management with <span class="text-indigo-600">TaskFlow</span>
+        </h1>
+        <p class="mt-6 text-gray-600 max-w-md mx-auto md:mx-0">
+          Plan, track, and collaborate with your team in one simple workspace. Boost productivity and achieve more with less effort.
+        </p>
+        <div class="mt-8 flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+          <a href="#pricing" class="px-8 py-3 bg-blue-700 text-white rounded-xl shadow hover:bg-blue-800">Get Started Free</a>
+          <a href="#features" class="px-8 py-3 bg-white border border-gray-300 text-gray-800 rounded-xl shadow hover:bg-gray-50">Watch Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-16">Why Choose TaskFlow?</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="p-8 bg-white shadow-lg rounded-xl hover:shadow-2xl transition" data-aos="fade-up">
+          <i class="fas fa-tasks text-blue-600 text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Smart Task Management</h3>
+          <p class="text-gray-600">Organize and prioritize tasks easily for clarity and speed.</p>
+        </div>
+        <div class="p-8 bg-white shadow-lg rounded-xl hover:shadow-2xl transition" data-aos="fade-up" data-aos-delay="150">
+          <i class="fas fa-bell text-blue-600 text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Custom Reminders</h3>
+          <p class="text-gray-600">Never miss deadlines with intelligent reminders across devices.</p>
+        </div>
+        <div class="p-8 bg-white shadow-lg rounded-xl hover:shadow-2xl transition" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-users text-blue-600 text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Team Collaboration</h3>
+          <p class="text-gray-600">Assign tasks and track progress with your team seamlessly.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Reviews -->
+<section id="reviews" class="py-20 px-6 bg-gray-50">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-16">What Our Users Say</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      
+      <!-- Review 1 -->
+      <div class="bg-white shadow-lg rounded-xl p-8" data-aos="fade-up">
+        <div class="flex items-center justify-center mb-4">
+          <div class="w-16 h-16 flex items-center justify-center rounded-full bg-blue-600 text-white text-2xl font-bold">
+            S
+          </div>
+        </div>
+        <p class="text-gray-600 mb-4">"TaskFlow transformed how I manage projects. Highly recommend!"</p>
+        <h4 class="font-semibold">Sarah M.</h4>
+        <p class="text-sm text-gray-500">Project Manager, TechCorp</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="bg-white shadow-lg rounded-xl p-8" data-aos="fade-up" data-aos-delay="150">
+        <div class="flex items-center justify-center mb-4">
+          <div class="w-16 h-16 flex items-center justify-center rounded-full bg-indigo-600 text-white text-2xl font-bold">
+            D
+          </div>
+        </div>
+        <p class="text-gray-600 mb-4">"Super intuitive and easy to use. Keeps me on track every day."</p>
+        <h4 class="font-semibold">David K.</h4>
+        <p class="text-sm text-gray-500">Freelance Designer</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="bg-white shadow-lg rounded-xl p-8" data-aos="fade-up" data-aos-delay="300">
+        <div class="flex items-center justify-center mb-4">
+          <div class="w-16 h-16 flex items-center justify-center rounded-full bg-pink-600 text-white text-2xl font-bold">
+            E
+          </div>
+        </div>
+        <p class="text-gray-600 mb-4">"Our whole team switched to TaskFlow and productivity skyrocketed."</p>
+        <h4 class="font-semibold">Emma W.</h4>
+        <p class="text-sm text-gray-500">Team Lead, StartupHub</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Pricing -->
+
+  <section id="pricing" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-16">Flexible Pricing</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <div class="bg-white shadow-lg rounded-xl p-10 hover:shadow-2xl transition" data-aos="zoom-in">
+          <h3 class="text-2xl font-bold mb-2">Free</h3>
+          <p class="text-4xl font-extrabold mb-6">$0</p>
+          <ul class="space-y-2 text-gray-600 mb-6">
+            <li>✔ Basic Tasks</li><li>✔ Reminders</li><li>✘ Team Features</li>
+          </ul>
+          <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Get Free</a>
+        </div>
+        <div class="relative bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-xl rounded-xl p-10 transform scale-105" data-aos="zoom-in" data-aos-delay="150">
+          <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs px-3 py-1 rounded-full">Most Popular</span>
+          <h3 class="text-2xl font-bold mb-2">Pro</h3>
+          <p class="text-4xl font-extrabold mb-6">$9/mo</p>
+          <ul class="space-y-2 mb-6">
+            <li>✔ Advanced Tasks</li><li>✔ Reminders & Alerts</li><li>✔ Limited Team</li>
+          </ul>
+          <a href="#" class="px-6 py-3 bg-white text-blue-600 rounded-full hover:bg-gray-200 transition">Choose Pro</a>
+        </div>
+        <div class="bg-white shadow-lg rounded-xl p-10 hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="300">
+          <h3 class="text-2xl font-bold mb-2">Team</h3>
+          <p class="text-4xl font-extrabold mb-6">$29/mo</p>
+          <ul class="space-y-2 text-gray-600 mb-6">
+            <li>✔ Everything in Pro</li><li>✔ Unlimited Teams</li><li>✔ Priority Support</li>
+          </ul>
+          <a href="#" class="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">Choose Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer id="contact" class="bg-gray-900 text-gray-300 pt-16 pb-10">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-4 gap-12">
+      <div>
+        <h3 class="text-2xl font-bold text-white mb-4">TaskFlow</h3>
+        <p class="text-gray-400 mb-6">Your trusted productivity partner for work and life.</p>
+        <div class="flex space-x-4">
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-700 transition"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-500 transition"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-pink-500 transition"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+        <ul class="space-y-3">
+          <li><a href="#features" class="hover:text-blue-400 transition">Features</a></li>
+          <li><a href="#reviews" class="hover:text-blue-400 transition">Reviews</a></li>
+          <li><a href="#pricing" class="hover:text-blue-400 transition">Pricing</a></li>
+          <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Resources</h4>
+        <ul class="space-y-3">
+          <li><a href="#" class="hover:text-blue-400 transition">Help Center</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">Community</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">Blog</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition">Guides</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">Stay Updated</h4>
+        <p class="text-gray-400 mb-4">Subscribe to our newsletter for the latest updates and tips.</p>
+        <form class="flex">
+          <input type="email" placeholder="Enter your email" class="w-full px-4 py-2 rounded-l-lg focus:outline-none text-gray-900" />
+          <button class="px-4 bg-blue-600 rounded-r-lg hover:bg-blue-700 transition text-white">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="border-t border-gray-800 mt-12 pt-6 text-center text-gray-500 text-sm">
+      © 2025 TaskFlow. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({ duration: 900, once: true });
+
+    // Navbar Mobile Toggle with Auto-Close
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    menuBtn.addEventListener("click", () => mobileMenu.classList.toggle("hidden"));
+    mobileMenu.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+    });
+  </script>
+
+</body>
+</html>
