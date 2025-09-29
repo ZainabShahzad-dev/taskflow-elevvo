@@ -2,7 +2,7 @@
 A modern, responsive landing page for a fictional task management app called TaskFlow. Built with HTML,Tailwind CSS, Javascript, Font Awesome, and AOS for smooth animations.
 TaskFlow Landing Page ✨
 
-A modern, professional, and fully responsive landing page for a fictional task management application called TaskFlow. Built with Tailwind CSS 🎨, Font Awesome 🔗, and AOS.js 🎬 for smooth animations, it delivers a clean and engaging user experience across all devices.
+This code delivers a clean and engaging user experience across all devices.
 
 🚀 Features
 Responsive Navbar 📌 – Works on desktop, tablet, and mobile with a toggle menu.
