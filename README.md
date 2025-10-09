@@ -1,4 +1,3 @@
-<img width="1350" height="630" alt="taskflow" src="https://github.com/user-attachments/assets/4e1d5bc0-34c2-4236-91c6-532984a0c233" /># taskflow-elevvo
 A modern, responsive landing page for a fictional task management app called TaskFlow. Built with HTML,Tailwind CSS, Javascript, Font Awesome, and AOS for smooth animations.
 TaskFlow Landing Page ✨
 
@@ -11,8 +10,9 @@ Features Section ⚡ – Showcases task management ✅, reminders ⏰, and colla
 Pricing Section 💲 – Three structured plans (Free, Pro, Team) in a modern card layout.
 Footer 📩 – Includes quick links, resources, social media icons 🌐, and a newsletter form.
 Animations 🎉 – Smooth fade and zoom effects powered by AOS.js.
+
 📸 Screenshot
-<img width="1350" height="630" alt="taskflow" src="https://github.com/user-attachments/assets/d5756e16-fa50-4ec1-88b5-b319567b6a67" />
+<img width="800" height="500" alt="taskflow" src="https://github.com/user-attachments/assets/d5756e16-fa50-4ec1-88b5-b319567b6a67" />
 
 🛠️ Technologies Used
 HTML5 – Structure
