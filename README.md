@@ -11,6 +11,9 @@ Features Section ⚡ – Showcases task management ✅, reminders ⏰, and colla
 Pricing Section 💲 – Three structured plans (Free, Pro, Team) in a modern card layout.
 Footer 📩 – Includes quick links, resources, social media icons 🌐, and a newsletter form.
 Animations 🎉 – Smooth fade and zoom effects powered by AOS.js.
+📸 Screenshot
+![Uploading taskflow.png…]()
+
 🛠️ Technologies Used
 HTML5 – Structure
 Tailwind CSS – Styling & layout
